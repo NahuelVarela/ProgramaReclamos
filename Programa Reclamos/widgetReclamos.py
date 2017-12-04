@@ -1,0 +1,93 @@
+# -*- coding: utf-8 -*-
+
+# Form implementation generated from reading ui file 'widgetReclamos.ui'
+#
+# Created by: PyQt5 UI code generator 5.9.1
+#
+# WARNING! All changes made in this file will be lost!
+
+from PyQt5 import QtCore, QtGui, QtWidgets
+
+class Ui_Form(object):
+    def setupUi(self, Form):
+        Form.setObjectName("Form")
+        Form.resize(474, 90)
+        Form.setMinimumSize(QtCore.QSize(474, 90))
+        self.labelEstado = QtWidgets.QLabel(Form)
+        self.labelEstado.setGeometry(QtCore.QRect(9, 48, 53, 19))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.labelEstado.setFont(font)
+        self.labelEstado.setObjectName("labelEstado")
+        self.labelVenta = QtWidgets.QLabel(Form)
+        self.labelVenta.setGeometry(QtCore.QRect(9, 9, 46, 19))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.labelVenta.setFont(font)
+        self.labelVenta.setObjectName("labelVenta")
+        self.infoEstado = QtWidgets.QLabel(Form)
+        self.infoEstado.setGeometry(QtCore.QRect(73, 50, 301, 20))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(11)
+        self.infoEstado.setFont(font)
+        self.infoEstado.setText("")
+        self.infoEstado.setObjectName("infoEstado")
+        self.infoVenta = QtWidgets.QLabel(Form)
+        self.infoVenta.setGeometry(QtCore.QRect(68, 9, 131, 21))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(11)
+        self.infoVenta.setFont(font)
+        self.infoVenta.setText("")
+        self.infoVenta.setObjectName("infoVenta")
+        self.labelNombre = QtWidgets.QLabel(Form)
+        self.labelNombre.setGeometry(QtCore.QRect(210, 9, 63, 19))
+        font = QtGui.QFont()
+        font.setPointSize(11)
+        font.setBold(True)
+        font.setWeight(75)
+        self.labelNombre.setFont(font)
+        self.labelNombre.setObjectName("labelNombre")
+        self.infoNombre = QtWidgets.QLabel(Form)
+        self.infoNombre.setGeometry(QtCore.QRect(280, 10, 91, 21))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(11)
+        self.infoNombre.setFont(font)
+        self.infoNombre.setText("")
+        self.infoNombre.setObjectName("infoNombre")
+        self.line = QtWidgets.QFrame(Form)
+        self.line.setGeometry(QtCore.QRect(390, 10, 3, 61))
+        self.line.setFrameShape(QtWidgets.QFrame.VLine)
+        self.line.setFrameShadow(QtWidgets.QFrame.Sunken)
+        self.line.setObjectName("line")
+        self.labelDevolucion = QtWidgets.QLabel(Form)
+        self.labelDevolucion.setGeometry(QtCore.QRect(400, 10, 51, 21))
+        font = QtGui.QFont()
+        font.setFamily("Verdana")
+        font.setPointSize(10)
+        font.setBold(True)
+        font.setWeight(75)
+        self.labelDevolucion.setFont(font)
+        self.labelDevolucion.setText("")
+        self.labelDevolucion.setObjectName("labelDevolucion")
+        self.pushButton = QtWidgets.QPushButton(Form)
+        self.pushButton.setGeometry(QtCore.QRect(400, 50, 61, 23))
+        self.pushButton.setObjectName("pushButton")
+
+        self.retranslateUi(Form)
+        QtCore.QMetaObject.connectSlotsByName(Form)
+
+    def retranslateUi(self, Form):
+        _translate = QtCore.QCoreApplication.translate
+        Form.setWindowTitle(_translate("Form", "Form"))
+        self.labelEstado.setText(_translate("Form", "Estado:"))
+        self.labelVenta.setText(_translate("Form", "Venta:"))
+        self.labelNombre.setText(_translate("Form", "Nombre:"))
+        self.pushButton.setText(_translate("Form", "Editar"))
+
