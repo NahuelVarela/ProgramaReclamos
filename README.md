@@ -1,2 +1,2 @@
 # ProgramaReclamos
-Es un programa que hice en Python, la UI con QTDesigner y es para llevar un control de los reclamos de Mercado Libre. Des afortunadamente, no logro entender por que falla al momento de guardar, así que tengo que arreglarlo
+Es un programa que hice en Python, la UI con QTDesigner y es para llevar un control de los reclamos de Mercado Libre. Des afortunadamente, no logro entender por que falla al momento de guardar, así que tengo que arreglarlo. El problema es que no entiendo por que falla al momento de guardar. Uso Cpickle para guardar a un archivo externo. Cuando termine mi otro programa, Actualizador de precios, voy a cambiar Cpiclke por usar simplemente una hoja de Excel.
